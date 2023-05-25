@@ -4,7 +4,7 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 390px) {
+@media (min-width: 350px) {
 	html {
 		font-size: 14px;
 	}
