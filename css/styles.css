@@ -4,9 +4,24 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 500px) {
 	html {
 		font-size: 14px;
+	}
+	img {
+		width: 300px;
+		border-radius: 10%;
+		background: #222;
+		max-width: 250px;
+		padding: .4rem;
+		border-width: 4.3px;
+		border-style: solid;
+		border-image: 
+		  linear-gradient(
+			180deg, 
+			rgb(212, 255, 23), 
+			rgba(253, 242, 82, 0)
+		  ) 1 100%;
 	}
 }
 
