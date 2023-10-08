@@ -18,7 +18,7 @@ html {
     border-style: solid;
     border-image: linear-gradient(
         180deg,
-        rgb(23, 201, 255),
+        rgb(0, 195, 255),
         rgba(251, 251, 251, 0)
       )
       1 100%;
