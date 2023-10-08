@@ -1,77 +1,77 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (min-width: 350px) {
-	html {
-		font-size: 14px;
-	}
-	img {
-		width: 300px;
-		border-radius: 10%;
-		background: #222;
-		max-width: 250px;
-		padding: .4rem;
-		border-width: 4.3px;
-		border-style: solid;
-		border-image: 
-		  linear-gradient(
-			180deg, 
-			rgb(212, 255, 23), 
-			rgba(253, 242, 82, 0)
-		  ) 1 100%;
-	}
+  html {
+    font-size: 14px;
+  }
+  img {
+    width: 300px;
+    border-radius: 10%;
+    background: #222;
+    max-width: 250px;
+    padding: 0.4rem;
+    border-width: 4.3px;
+    border-style: solid;
+    border-image: linear-gradient(
+        180deg,
+        rgb(23, 201, 255),
+        rgba(251, 251, 251, 0)
+      )
+      1 100%;
+  }
 }
 
 @media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
+  html {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
+  html {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
+  html {
+    font-size: 20px;
+  }
 }
 
 .icons-social i {
-	font-size: 3em;
+  font-size: 3em;
 }
 
 /* Custom Styles */
 
 main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+  font-family: "Reem Kufi", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 
 main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
 }
 
 .icons-social i {
-	padding: 10px;
+  padding: 10px;
 }
 
 .icons-social a {
@@ -79,12 +79,12 @@ main > .tagline {
 }
 
 .devto {
-	margin-bottom: -0.20rem;
+  margin-bottom: -0.2rem;
 }
 
 .devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+  margin-bottom: -0.2rem;
+  margin-left: 0.675rem;
+  width: 2.65rem;
+  height: 2.65rem;
 }
